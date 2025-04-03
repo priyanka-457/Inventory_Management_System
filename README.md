@@ -10,18 +10,21 @@ cd manager
 # 2. Create project structure
 mkdir -p backend/{config,controllers,models,routes} frontend/{css,js}
 
-#3.setup backend                 
+#3.setup backend             
  npm init -y                                                                                       
                                                            
 # 4. Install backend dependencies
-npm install express mongoose body-parser cors dotenv
+npm install express mongoose dotenv cors body-parser
 
 # 5. Set up environment variables
-echo "MONGODB_URI=mongodb://localhost:27017/inventory" > .env
-echo "PORT=3000" >> .env
+MONGODB_URI=mongodb://localhost:27017/inventoryDB
+PORT=5000
 
-# 6. Launch backend server
-echo "Backend API: http://localhost:3000"                    
+# 6. Run the Application:
+node server.js 
+
+#7.Access the application:
+http://localhost:5000
 
 User Interface: A web dashboard displays inventory items, analytics, and alerts in real-time.
 Data Input: Users add/edit products through forms with automatic validation (e.g., no negative prices).
