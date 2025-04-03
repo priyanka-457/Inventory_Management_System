@@ -29,4 +29,8 @@ Live Search: Typing in the search bar instantly filters the item table by name/c
 Automated Alerts: Items below the set threshold turn red and appear in a "Low Stock" section.
 Dynamic Charts: Pie/bar charts update automatically when data changes, showing trends.
 Real-Time Sync: Frontend fetches updates every 30 seconds or after user actions.
-for further check our link
+for further check our link        
+
+
+Demo of the Project       
+https://drive.google.com/file/d/1Wh-ej0Z-4IgmOQwj7rvh_9sKJcyKVLjz/view?usp=sharing
